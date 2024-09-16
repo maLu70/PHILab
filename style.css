@@ -16,7 +16,7 @@ body {
 
 .paginaInicial {
     background-color: blue;
-    height: 700px;
+    height: 800px;
     display: flex;
     background-image: url(/img/fundoInicial.png);
     background-size: cover;
@@ -36,15 +36,15 @@ h4 {
 }
 
 .img1 {
-    height: 195px;
-    width: 375px;
+    height: 200px;
+    width: 385px;
     background-color: antiquewhite;
     border-radius: 25px;
 }
 
 .img2 {
-    height: 195px;
-    width: 195px;
+    height: 200px;
+    width: 200px;
     background-color: orange;
     border-radius: 25px;
 }
@@ -67,5 +67,14 @@ h4 {
 
 #phiHeader {
     margin-left: 50px;
+}
+
+h2 {
+    color: #255FA0;
+    font-size: 40px;
+}
+
+.sobre {
+    margin-top: 100px;
 }
 
