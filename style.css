@@ -12,8 +12,6 @@ body {
     font-size: 20px;
 }
 
-
-
 .paginaInicial {
     background-color: blue;
     height: 800px;
@@ -71,10 +69,102 @@ h4 {
 
 h2 {
     color: #255FA0;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .sobre {
     margin-top: 100px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.sobre p {
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: justify;
+}
+
+.imgSobre {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 25%;
+    height: 350px;
+}
+
+.img4 {
+    background-color: lightblue;
+    width: 32%;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px #00000067;
+}
+
+.img3 {
+    margin-top: 80px;
+    background-color: lightblue;
+    width: 30%;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px #00000067;
+}
+
+.nome {
+    font-size: 23px;
+    margin-top: -15px;
+}
+
+.caixaProf {
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 45%;
+    height: 280px;
+}
+
+.foto1, .foto2, .foto3 {
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    background-color: #1C3C61;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: #F5F5F5;
+    margin-bottom: 25px;
+}
+
+.cardProf {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 620px;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+
+.infoProfs {
+    width: 300px;
+}
+
+.professores {
+    margin-top: 120px;
+    text-align: center;
 }
 
