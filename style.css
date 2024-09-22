@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .paginaInicial {
@@ -25,24 +25,24 @@ body {
 
 h1 {
     color: white;
-    font-size: 55px;
+    font-size: 3.44rem;
 }
 
 h4 {
     color: white;
-    font-size: 28px; 
+    font-size: 1.75rem; 
 }
 
 .img1 {
-    height: 200px;
-    width: 385px;
+    height: 45%;
+    width: 63%;
     background-color: antiquewhite;
     border-radius: 25px;
 }
 
 .img2 {
-    height: 200px;
-    width: 200px;
+    height: 45%;
+    width: 33%;
     background-color: orange;
     border-radius: 25px;
 }
@@ -60,16 +60,16 @@ h4 {
     width: 25%;
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 3%;
 }
 
 #phiHeader {
-    margin-left: 50px;
+    margin-left: 3%;
 }
 
 h2 {
     color: #255FA0;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .sobre {
@@ -117,6 +117,7 @@ p {
 .nome {
     font-size: 23px;
     margin-top: -15px;
+    line-height: 27px;
 }
 
 .caixaProf {
@@ -125,7 +126,7 @@ p {
     align-items: center;
     border-radius: 25px;
     width: 45%;
-    height: 280px;
+    height: 250px;
 }
 
 .foto1, .foto2, .foto3 {
@@ -137,7 +138,7 @@ p {
     margin-left: 20px;
 }
 
-button {
+.caixaProf button {
     border: none;
     background-color: #1C3C61;
     font-size: 20px;
@@ -145,7 +146,6 @@ button {
     height: 50px;
     border-radius: 30px;
     color: #F5F5F5;
-    margin-bottom: 25px;
 }
 
 .cardProf {
@@ -154,13 +154,14 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    height: 620px;
+    height: 580px;
     margin-left: 20%;
     margin-top: 80px;
 }
 
 .infoProfs {
     width: 300px;
+    padding-bottom: 25px;
 }
 
 .professores {
@@ -168,3 +169,77 @@ button {
     text-align: center;
 }
 
+.slider {
+    background-color: #1C3C61;
+    width: 31.25%;
+    height: 650px;
+}
+
+.conteudoEquipamentos {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.opcoes button {
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 320px;
+    text-align: justify;
+    background: none;
+    border: none
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+}
+
+#bch {
+    border-top: solid 4px #1C3C61;
+    border-bottom: solid 4px #1C3C61;
+}
+
+.infoBCP, .infoBCH, .infoBMF {
+    width: 36.88%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.infoBCP h2, .infoBCH h2, .infoBMF h2 {
+    font-size: 38px;
+    margin-top: 0;
+}
+
+.equipamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    font-weight: bold;
+    list-style-type: none
+}
+
+.seta {
+    height: 55px;
+}
+
+.seta2 {
+    height: 45px;
+}
+
+li p {
+    display: flex;
+    align-items: center;
+}
+
+li h3 {
+    font-size: 25px;
+    display: none;
+    align-items: center;
+}

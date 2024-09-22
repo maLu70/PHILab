@@ -6,6 +6,8 @@
     <title>PHI Lab</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+
 </head>
 <body>
 
@@ -84,6 +86,79 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="disciplinas">
+        <h2>Disciplinas que utilizam o PHI Lab</h2>
+
+        <ul>
+            <li> 
+                <p><img src="/img/seta.png" onclick="" class="seta" alt="seta">Curso Técnico em Eletromecânica</p>
+                <ul>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Controle e Automação </h3> </li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Eletropneumática e Eletrohidráulica</h3></li>
+                </ul>
+            </li>
+
+            <li> 
+                <p> <img src="/img/seta.png" class="seta" alt="seta">Curso Técnico em Eletromecânica Integrado ao Ensino Médio </p>
+                <ul>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Controle e Automação</h3></li>
+                    <h3> <img src="/img/seta.png" class="seta2" alt="seta"> Pneumática e Hidráulica </h3> </li>
+                    <li> <h3><img src="/img/seta.png" class="seta2" alt="seta">Eletropneumática e Eletrohidráulica</h3> </li>
+                </ul>
+            </li>
+
+            <li>
+                <p> <img src="/img/seta.png" class="seta" alt="seta">Curso Técnico em Mecânica</p>
+                <ul>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Pneumática e Hidraulica 1 </h3></li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Pneumática e Hidraulica 2 </h3></li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Controle e Automação </h3></li>
+                </ul>
+            </li>
+
+            <li>
+                 <p> <img src="/img/seta.png" class="seta" alt="seta">Curso de Graduação em Engenharia Mecânica </p>
+                <ul>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Mecanica dos Fluidos </h3></li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Controle e Automação </h3> </li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Maquinas de Fluxo </h3> </li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Sistemas Hidraulicos e Pneumáticos </h3></li>
+                    <li> <h3> <img src="/img/seta.png" class="seta2" alt="seta">Robotica Industrial </h3></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="equipamentos">
+        <h2>Equipamentos</h2>
+
+        <div class="conteudoEquipamentos">
+
+            <div class="opcoes">
+                <button id="bcp" onclick="bcp()">Bancadas de Circuitos Pneumáticos</button>
+                <button id="bch" onclick="bch()">Bancadas de Circuitos Hidraulicos</button>
+                <button id="bmf" onclick="bmf()">Bancada de Mecânica dos Fluidos</button>
+            </div>
+
+            <div class="slider"></div>
+
+            <div class="infoBCP">
+                <h2>Bancadas de Circuitos Pneumáticos</h2>
+                <p>     O PHI Lab conta com 3 bancadas duplas para montagem circuitos pneumáticos e eletropneumáticos, as quais podem proporcionar montagens de experimentos para até 6 grupos simultaneamente. Cada bancada conta com um gaveteiro contendo uma série de componentes pneumáticos e eletropneumáticos, de modo a mantê-los organizados e corretamente armazenados.</p>
+            </div>
+
+            <div class="infoBCH" style="display: none;">
+                <h2>Bancadas de Circuitos Hidraulicos</h2>
+                <p>     O PHI Lab conta com 1 bancada dupla para montagem circuitos hidráulicos e eletrohidráulicos, bancada esta que pode proporcionar montagens de experimentos para até 2 grupos simultaneamente. A bancada conta com dois gaveteiros contendo uma série de componentes hidráulicos e eletrohidráulicos, de modo a mantê-los organizados e corretamente armazenados.</p>
+            </div>
+
+            <div class="infoBMF" style="display: none;">
+                <h2>Bancadas de Mecanica dos Fluidos</h2>
+                <p>     O PHI Lab conta com 1 bancada dupla para montagem de experimentos de mecânicas dos fluidos e máquinas de fluxo, bancada esta que pode proporcionar montagens de experimentos para até 2 grupos simultaneamente. A bancada conta com aparatos que podem proporcionar, entre outros experimentos, o número de Reynolds, perda de carga distribuída, perda de carga localizada, medição de velocidade de escoamento através de Medidor Venturi e associação de bombas centrífugas.</p>
+            </div>
+
+        </div>
+
 </body>
 </html>
