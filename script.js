@@ -39,5 +39,5 @@ function bmf() {
     document.querySelector(".infoBCP").style.display = "none";
     document.querySelector(".infoBCH").style.display = "none";
     document.querySelector(".infoBMF").style.display = "block";
-
 }
+
