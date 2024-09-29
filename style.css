@@ -15,7 +15,7 @@ body {
     align-items: center;
     font-size: 1vw;
     height: 8.5vh;
-    box-shadow: 0px 0.5vh 2vh rgba(0, 0, 0, 0.5);
+    box-shadow: 0vh 0.5vh 2vh rgba(0, 0, 0, 0.5);
     position: relative; 
     z-index: 1;
 }
@@ -27,7 +27,6 @@ body {
     background-image: url(/img/fundoInicial.png);
     background-size: cover;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -83,6 +82,9 @@ h2 {
 .sobre {
     margin-top: 10vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -91,170 +93,176 @@ p {
 }
 
 .sobre p {
-    width: 75%;
-    margin-left: 12.5%;
+    width: 75vw;
     text-align: justify;
 }
 
 .imgSobre {
     display: flex;
-    width: 50%;
+    width: 50vw;
     justify-content: space-around;
-    margin-top: 80px;
-    margin-left: 25%;
-    height: 350px;
+    margin-top: 8vh;
+    height: 35vh;
 }
 
 .img4 {
     background-color: lightblue;
-    width: 32%;
-    height: 280px;
-    border-radius: 25px;
-    box-shadow: 0px 10px 10px #00000067;
+    width: 16vw;
+    height: 28.5vh;
+    border-radius: 2.8vh;
+    box-shadow: 0vh 1vh 1vh #00000067;
 }
 
 .img3 {
-    margin-top: 80px;
+    margin-top: 8vh;
     background-color: lightblue;
-    width: 30%;
-    height: 250px;
-    border-radius: 25px;
-    box-shadow: 0px 10px 10px #00000067;
+    width: 15vw;
+    height: 26vh;
+    border-radius: 2.8vh;
+    box-shadow: 0vh 1vh 1vh #00000067;
 }
 
 .nome {
-    font-size: 23px;
-    margin-top: -15px;
-    line-height: 27px;
+    font-size: 2.3vh;
+    line-height: 2.7vh;
+}
+
+.caixaProf p {
+    margin: 1vh 0 2vh 0;
 }
 
 .caixaProf {
     background-color: #D9D9D9;
     display: flex;
     align-items: center;
-    border-radius: 25px;
-    width: 45%;
-    height: 250px;
+    border-radius: 2.8vh;
+    width: 26.5vw;
+    height: 26vh;
 }
 
 .foto1, .foto2, .foto3 {
     background-color: rgb(0, 0, 0);
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50vw;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
 }
 
 .caixaProf button {
     border: none;
     background-color: #1C3C61;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
+    font-size: 1vw;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 2.8vh;
     color: #F5F5F5;
+    margin-top: 1vh;
 }
 
 .cardProf {
     display: flex;
-    width: 60%;
+    width: 58vw;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    height: 580px;
+    height: 61vh;
     margin-left: 20%;
-    margin-top: 80px;
+    margin-top: 8vh;
 }
 
 .infoProfs {
-    width: 300px;
-    padding-bottom: 25px;
+    width: 15vw;
+    padding-bottom: 2vh;
 }
 
 .professores {
-    margin-top: 120px;
+    margin-top: 12vh;
     text-align: center;
 }
 
-.slider {
+.slider, .imgBCP img {
     background-color: #1C3C61;
-    width: 31.25%;
-    height: 650px;
+    width: 25vw;
+    height: 67vh;
+}
+
+.bolinhasIMG {
+    position: relative;
 }
 
 .conteudoEquipamentos {
     display: flex;
+    justify-content: space-between;  
+    width: 80vw;
+    height: 85vh;
     align-items: center;
-    width: 80%;
-    height: 800px;
 }
 
 .opcoes button {
-    font-size: 28px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 320px;
+    font-size: 1.5vw;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    width: 18vw;
     text-align: justify;
     background: none;
-    border: none
+    border: none;
 }
 
 .opcoes {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 500px;
+    width: 20vw;
+    height: 50vh;
 }
 
 #bch {
-    border-top: solid 4px #1C3C61;
-    border-bottom: solid 4px #1C3C61;
+    border-top: solid 0.4vh #1C3C61;
+    border-bottom: solid 0.4vh #1C3C61;
 }
 
-#bcp {font-weight: bold; color:#1C3C61}
+#bcp {font-weight: bold; color:#1C3C61; padding-top: 0;}
 
 .infoBCP, .infoBCH, .infoBMF {
-    width: 36.88%;
+    width: 29vw;
     text-align: justify;
-    margin-left: 5%;
 }
 
 .infoBCP h2, .infoBCH h2, .infoBMF h2 {
-    font-size: 38px;
+    font-size: 1.8vw;
     margin-top: 0;
 }
 
 .equipamentos, .disciplinas {
-    margin-top: 100px;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .cursos {
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 summary {
     color: #1F1F1F;
-    font-size: 2.2rem;
-    line-height: 70px;
+    font-size: 1.7vw;
+    line-height: 7.5vh;
     font-weight: bold;
 }
 
 ul summary {
-    font-size: 1.8rem;
+    font-size: 1.4vw;
     font-weight: bold;
 }
 
 ul p, ul a {
     text-align: justify;
-    line-height: 40px;
-    font-size: 1.5rem;
-    width: 1000px;
-    margin: 0 0 0 80px;
-
+    line-height: 4vh;
+    font-size: 1.15vw;
+    width: 50vw;
+    margin: 0 0 0 4vw;
 }
  
 ul {list-style-type: none}
