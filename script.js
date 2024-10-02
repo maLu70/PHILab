@@ -10,6 +10,10 @@ function bcp() {
     document.querySelector(".infoBCP").style.display = "block";
     document.querySelector(".infoBCH").style.display = "none";
     document.querySelector(".infoBMF").style.display = "none";
+
+    document.querySelector(".slidBCP").style.display = "flex";
+    document.querySelector(".slidBCH").style.display = "none";
+    document.querySelector(".sldBMF").style.display = "none";
 }
 
 function bch() {
@@ -25,6 +29,10 @@ function bch() {
     document.querySelector(".infoBCH").style.display = "block";
     document.querySelector(".infoBMF").style.display = "none";
 
+    document.querySelector(".slidBCP").style.display = "none";
+    document.querySelector(".slidBCH").style.display = "flex";
+    document.querySelector(".slidBMF").style.display = "none";
+
 }
 
 function bmf() {
@@ -39,5 +47,8 @@ function bmf() {
     document.querySelector(".infoBCP").style.display = "none";
     document.querySelector(".infoBCH").style.display = "none";
     document.querySelector(".infoBMF").style.display = "block";
-}
 
+    document.querySelector(".slidBCP").style.display = "none";
+    document.querySelector(".slidBCH").style.display = "none";
+    document.querySelector(".slidBMF").style.display = "flex";
+}
